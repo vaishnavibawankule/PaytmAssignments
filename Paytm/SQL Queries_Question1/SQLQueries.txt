@@ -1,28 +1,27 @@
-QUestion 1:
+Question 1:
 
 Creating and Insering Records in Employee Table:
 
-create table employee(EmpId int Not Null, EmpName varchar(255) Not Null, DOB date Not null, Primary Key (EmpId));
-insert into employee values(1, 'Ram', '1996-12-11');
+create table Employee(EmpId int Not Null, EmpName varchar(255) Not Null, DOB date Not null, Primary Key (EmpId));
+insert into Employee values(1, 'Ram', '1996-12-11');
 
-insert into employee values(2, 'Shyam', '1956-12-11');
+insert into Employee values(2, 'Shyam', '1956-12-11');
 
-select * from employee;
+select * from Employee;
 
 Creating and Inserting Records in Salary Table:
 
 Create table Salary (EmpId int Not Null, salary int not null, Primary Key (EmpId), Foreign Key (EmpId) references Employee(EmpId));
-insert into salary values (1,2300);
+insert into Salary values (1,2300);
 
-insert into salary values(2,500);
+insert into Salary values(2,500);
 
-select * from salary;
+select * from Salary;
 
 a> Write an SQL query to find nth largest salary along with employee name.
 
-Select max(salary),empname from(select EmpName , salary from employee e, salary s where e.empid=s.empid);
+Select max(salary),EmpName from(select EmpName , salary from Employee e, Salary s where e.Empid=s.Empid);
 
 b> Write a query to update salary of employees to 5000 whose age is 30+
 
-Update Salary set salary = 5000 from Salary s join employee e ON s.EmpId=e.EmpId  where  ((CURRENT_DATE - DOB) > 30);
-
+Update table Salary set salary=5000 from Salary s join Employee e on e.Eempid=s.Empid where (Trunc(months_between(sysdate,e.dob)/12)>30));
