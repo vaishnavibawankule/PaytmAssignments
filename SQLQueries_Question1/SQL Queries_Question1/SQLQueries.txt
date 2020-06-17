@@ -1,6 +1,6 @@
 Question 1:
 
-Creating and Insering Records in Employee Table:
+Creating and Inserting Records in Employee Table:
 
 create table Employee(EmpId int Not Null, EmpName varchar(255) Not Null, DOB date Not null, Primary Key (EmpId));
 insert into Employee values(1, 'Ram', '1996-12-11');
