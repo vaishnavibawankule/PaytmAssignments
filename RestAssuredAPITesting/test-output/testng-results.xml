@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-17T11:01:30Z" name="Paytm Rest Asuured Test Automation Test Suite" finished-at="2020-06-17T11:01:37Z" duration-ms="7448">
+    <groups>
+    </groups>
+    <test started-at="2020-06-17T11:01:30Z" name="Paytm API Test Cases" finished-at="2020-06-17T11:01:37Z" duration-ms="7448">
+      <class name="com.paytm.qa.testcases.TC005_printMovieNamesInExcel">
+        <test-method signature="writeMovieNamesinExcel()[pri:0, instance:com.paytm.qa.testcases.TC005_printMovieNamesInExcel@6a2f6f80]" started-at="2020-06-17T16:31:35Z" name="writeMovieNamesinExcel" finished-at="2020-06-17T16:31:37Z" duration-ms="2054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeMovieNamesinExcel -->
+      </class> <!-- com.paytm.qa.testcases.TC005_printMovieNamesInExcel -->
+      <class name="com.paytm.qa.testcases.TC004_UniqueLanguage">
+        <test-method signature="verifyUniqueLanguage()[pri:0, instance:com.paytm.qa.testcases.TC004_UniqueLanguage@1190200a]" started-at="2020-06-17T16:31:35Z" name="verifyUniqueLanguage" finished-at="2020-06-17T16:31:35Z" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUniqueLanguage -->
+      </class> <!-- com.paytm.qa.testcases.TC004_UniqueLanguage -->
+      <class name="com.paytm.qa.testcases.TC001_GETStatusCode">
+        <test-method signature="verifyStatusDetails()[pri:0, instance:com.paytm.qa.testcases.TC001_GETStatusCode@4961f6af]" started-at="2020-06-17T16:31:30Z" name="verifyStatusDetails" finished-at="2020-06-17T16:31:33Z" duration-ms="3498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusDetails -->
+      </class> <!-- com.paytm.qa.testcases.TC001_GETStatusCode -->
+      <class name="com.paytm.qa.testcases.TC002_MoviePosterURL">
+        <test-method signature="verifyMoviePosterURL()[pri:0, instance:com.paytm.qa.testcases.TC002_MoviePosterURL@75db5df9]" started-at="2020-06-17T16:31:33Z" name="verifyMoviePosterURL" finished-at="2020-06-17T16:31:34Z" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMoviePosterURL -->
+      </class> <!-- com.paytm.qa.testcases.TC002_MoviePosterURL -->
+      <class name="com.paytm.qa.testcases.TC003_UniqueMovieCode">
+        <test-method signature="verifyUniqueMovieCode()[pri:0, instance:com.paytm.qa.testcases.TC003_UniqueMovieCode@707194ba]" started-at="2020-06-17T16:31:34Z" name="verifyUniqueMovieCode" finished-at="2020-06-17T16:31:35Z" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUniqueMovieCode -->
+      </class> <!-- com.paytm.qa.testcases.TC003_UniqueMovieCode -->
+    </test> <!-- Paytm API Test Cases -->
+  </suite> <!-- Paytm Rest Asuured Test Automation Test Suite -->
+</testng-results>

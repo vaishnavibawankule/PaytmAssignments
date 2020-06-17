@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Paytm Rest Asuured Test Automation Test Suite">
+
+	
+<listeners>
+		<listener class-name="com.paytm.qa.ExtentReporterNG.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Paytm API Test Cases">
+		<classes>
+			<class name="com.paytm.qa.testcases.TC001_GETStatusCode"></class>
+			<class name="com.paytm.qa.testcases.TC002_MoviePosterURL"></class>
+			<class name="com.paytm.qa.testcases.TC003_UniqueMovieCode"></class>
+			<class name="com.paytm.qa.testcases.TC004_UniqueLanguage"></class>
+			<class name="com.paytm.qa.testcases.TC005_printMovieNamesInExcel"></class>
+		</classes>
+	</test>
+</suite>
